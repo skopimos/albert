@@ -20,13 +20,13 @@ from __future__ import division
 from __future__ import print_function
 import os
 import time
-from albert import modeling
-from albert import optimization
+from ALBERT import modeling
+from ALBERT import optimization
 from six.moves import range
 import tensorflow.compat.v1 as tf
-from tensorflow.contrib import cluster_resolver as contrib_cluster_resolver
-from tensorflow.contrib import data as contrib_data
-from tensorflow.contrib import tpu as contrib_tpu
+# from tensorflow.contrib import cluster_resolver as contrib_cluster_resolver
+# from tensorflow.contrib import data as contrib_data
+# from tensorflow.contrib import tpu as contrib_tpu
 
 flags = tf.flags
 
